@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/student-react-app/static/css/main.85ddf1f4.css",
+    "main.js": "/student-react-app/static/js/main.f3df712f.js",
+    "static/js/787.678b0dfb.chunk.js": "/student-react-app/static/js/787.678b0dfb.chunk.js",
+    "static/media/students.jpg": "/student-react-app/static/media/students.69aaef912cb93740a490.jpg",
+    "index.html": "/student-react-app/index.html",
+    "main.85ddf1f4.css.map": "/student-react-app/static/css/main.85ddf1f4.css.map",
+    "main.f3df712f.js.map": "/student-react-app/static/js/main.f3df712f.js.map",
+    "787.678b0dfb.chunk.js.map": "/student-react-app/static/js/787.678b0dfb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85ddf1f4.css",
+    "static/js/main.f3df712f.js"
+  ]
+}
