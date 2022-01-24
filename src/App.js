@@ -1,23 +1,36 @@
-import logo from './logo.svg';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import AddStudent from './components/AddStudent';
+import DeleteStudent from './components/DeleteStudent';
+import Navbar from './components/Navbar';
+import ShowStudents from './components/ShowStudents';
+import UpdateStudent from './components/UpdateStudent';
+import SearchStudent from './components/SearchStudent';
+import Home from './components/Home';
+import { Container } from '@material-ui/core';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <Navbar />
+      <div>
+        <Header/>
+
+        <main>
+        <Routes>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/show" element={<ShowStudents/>}/>
+          <Route path="/delete/:id" element={<DeleteStudent/>} />
+          <Route path="/add" element={<AddStudent/>} />
+          <Route path="/update/:id" element={<UpdateStudent/>} />
+          <Route path="/search" element={<SearchStudent/>} />
+        </Routes>
+        </main>
+      
+        <Footer />
+      </div>
     </div>
   );
 }

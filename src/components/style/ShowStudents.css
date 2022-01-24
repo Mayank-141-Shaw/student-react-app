@@ -1,0 +1,66 @@
+.showBlock{
+    display: flex;
+    flex-direction: column;
+    min-height: 75vh;
+    background-image: url("../../images/students.jpg");
+    background-size: cover;
+    text-align: center;
+}
+/* 
+.showBlock>h1{
+    text-transform: uppercase;
+    font-weight: bold;
+} */
+
+.showTable{
+    width: 100%;
+    padding: 10px;  
+    text-align: center;
+    background-color: rgba(233, 233, 233, 0.9);
+}
+
+.showTable>thead{
+    text-transform: uppercase;
+}
+
+.showTable th{
+    background-color: rgb(142, 146, 148, 0.9);
+    color: white;
+    padding: 10px 0px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.showTable td{
+    padding: 3px 0px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.showTable>tbody tr:hover{
+    background-color: rgb(188, 202, 207, 0.9);
+}
+
+.showTable td>a{
+    text-decoration: none;
+    color: white;
+}
+
+.actionBtn{
+    width: 10%;
+}
+
+button{
+    width: 100%;
+}
+/* .showTable button{
+    background-color: rgb(75, 147, 180, 0.9);
+    cursor: pointer;
+    color: white;
+    width: max-content;
+}
+
+.showTable .actionBtn:hover{
+    color: black;
+    /* background-color: rgb(53, 126, 160, 0.9);
+} */

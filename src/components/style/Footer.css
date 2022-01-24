@@ -1,0 +1,32 @@
+footer{
+    background-color: rgb(43, 72, 92);
+    padding: 10px;
+    color: white;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.leftList{
+    padding-left: 30px;
+    display: flex;
+}
+
+.rightList{
+    padding-right: 30px;
+    width: fit-content;
+    display: flex;
+}
+
+.leftList>li, .rightList>li{
+    font-size: small;
+    padding: 5px;
+}
+
+.leftList>li:hover{
+    font-size: small;
+}

@@ -1,0 +1,25 @@
+.addStudentBlock{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 75vh;
+    background-image: url("../../images/students.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+.h3{
+    text-transform: uppercase;
+    padding: 10px 0px;
+    font-weight: bold;
+}
+
+
+
+/* .addTable input{
+    width: 90%;
+    background: none;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid black;
+} */

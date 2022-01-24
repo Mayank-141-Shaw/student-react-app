@@ -1,0 +1,35 @@
+.homeBlock{
+    display: flex;
+    flex-direction: row;
+    min-height: 75vh;
+    background-image: url("../../images/students.jpg");
+    background-size: cover;
+}
+
+.welcomeBlock{
+    position: absolute;
+    top: 40vh;
+    background-color: rgba(233, 233, 233, 0.829);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 35%;
+    box-shadow: 2px 0px 20px -5px black, -2px 0px 20px rgb(210, 218, 219);
+    border-radius: 0px 200px 200px 0px;
+    padding: 10px;
+    text-align: start;
+}
+
+.bigWelcome{
+    font-size: 6vw;
+    font-weight: bold;
+    margin-block-start: 0.1em;
+    margin-block-end: 0.1em;
+}
+
+.subText{
+    font-size: 2.5vw;
+    font-weight: bold;
+    margin-block-start: 0.1em;
+    margin-block-end: 0.1em;
+}
