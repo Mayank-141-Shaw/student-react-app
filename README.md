@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).<br/>
 Link to the live project [Live Demo](https://mayank-141-shaw.github.io/student-react-app/)
 
 ## Available Scripts
