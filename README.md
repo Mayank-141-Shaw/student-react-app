@@ -3,6 +3,19 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).<br/>
 Link to the live project [Live Demo](https://mayank-141-shaw.github.io/student-react-app/)
 
+### Welcome Page
+<img src='https://github.com/Mayank-141-Shaw/student-react-app/blob/master/shots/welcome.png' />
+
+### Search Page
+<img src='https://github.com/Mayank-141-Shaw/student-react-app/blob/master/shots/search-page.png' />
+
+### Add Page
+<img src='https://github.com/Mayank-141-Shaw/student-react-app/blob/master/shots/add-page.png' />
+
+### List Page
+<img src='https://github.com/Mayank-141-Shaw/student-react-app/blob/master/shots/list-page.png' />
+
+
 ## Available Scripts
 
 In the project directory, you can run:
